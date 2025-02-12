@@ -28,7 +28,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(new ForgeBoatEvent());
+    	MinecraftForge.EVENT_BUS.register(ForgeBoatEvent.class);
 	}
 
 	private static void setGlobalConstants() {
