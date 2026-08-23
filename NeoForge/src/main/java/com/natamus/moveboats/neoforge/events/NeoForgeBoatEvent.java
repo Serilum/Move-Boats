@@ -23,7 +23,7 @@ public class NeoForgeBoatEvent {
 	}
 
 	@SubscribeEvent
-	public static void onBoatClick(PlayerInteractEvent.EntityInteractSpecific e) {
+	public static void onBoatClick(PlayerInteractEvent.EntityInteract e) {
 		if (BoatEvent.onBoatClick(e.getEntity(), e.getLevel(), e.getHand(), e.getTarget(), null).equals(InteractionResult.SUCCESS)) {
 			e.setCanceled(true);
 		}
