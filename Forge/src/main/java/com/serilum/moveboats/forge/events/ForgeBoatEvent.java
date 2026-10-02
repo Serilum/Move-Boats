@@ -1,6 +1,6 @@
-package com.natamus.moveboats.forge.events;
+package com.serilum.moveboats.forge.events;
 
-import com.natamus.moveboats.events.BoatEvent;
+import com.serilum.moveboats.events.BoatEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionResult;
