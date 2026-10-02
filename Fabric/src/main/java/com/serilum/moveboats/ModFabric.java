@@ -1,10 +1,10 @@
-package com.natamus.moveboats;
+package com.serilum.moveboats;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectivePlayerEvents;
-import com.natamus.moveboats.events.BoatEvent;
-import com.natamus.moveboats.util.Reference;
+import com.serilum.moveboats.events.BoatEvent;
+import com.serilum.moveboats.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.player.UseEntityCallback;
 import net.minecraft.server.level.ServerLevel;

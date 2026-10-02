@@ -1,4 +1,4 @@
-package com.natamus.moveboats.events;
+package com.serilum.moveboats.events;
 
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
