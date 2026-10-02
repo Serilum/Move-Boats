@@ -1,9 +1,9 @@
-package com.natamus.moveboats;
+package com.serilum.moveboats;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.moveboats.neoforge.events.NeoForgeBoatEvent;
-import com.natamus.moveboats.util.Reference;
+import com.serilum.moveboats.neoforge.events.NeoForgeBoatEvent;
+import com.serilum.moveboats.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;

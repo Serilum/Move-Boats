@@ -1,9 +1,9 @@
-package com.natamus.moveboats;
+package com.serilum.moveboats;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.moveboats.forge.events.ForgeBoatEvent;
-import com.natamus.moveboats.util.Reference;
+import com.serilum.moveboats.forge.events.ForgeBoatEvent;
+import com.serilum.moveboats.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -28,7 +28,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(ForgeBoatEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeBoatEvent.class);
 	}
 
 	private static void setGlobalConstants() {

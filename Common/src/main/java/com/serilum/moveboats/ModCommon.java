@@ -1,4 +1,4 @@
-package com.natamus.moveboats;
+package com.serilum.moveboats;
 
 public class ModCommon {
 
